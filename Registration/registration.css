@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+#first{
+    width: 70%;
+    height: 700px;
+    background-image: linear-gradient(purple,black);
+    border: 0 10px;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  border-radius: 30px 30px;
+  font-size: 30px;
+  margin-left: 15%;
+  margin-top: 8%;
+  border: solid 3px white;
+}
+h1{
+    text-align: center;
+    font-size: 47px;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+.R1{
+    margin-top: -30px;
+    padding-left: 10px;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+.R2{
+    width: 100px;
+    height: 40px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}

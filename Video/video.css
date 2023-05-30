@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://usagif.com/wp-content/uploads/gifs/starfall-gif-71.gif);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+}
+.vid{
+   margin-top: 100px;
+   font-size: 30px;
+   height: 300px;
+   width: 400px;
+   margin-left: 10%;
+   font-family: 'Josefin Sans', sans-serif;
+}
+.vid1{
+    height: 300px;
+   width: 400px;
+   margin-left: 57%;
+   margin-top: -19%;
+   font-size: 30px;
+   font-family: 'Josefin Sans', sans-serif;
+}
+.vid2{
+    margin-top: 35%;
+    font-size: 30px;
+    height: 300px;
+    width: 400px;
+    margin-left: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: gray;
+    color: blue;
+}
+.all{
+    background-image: linear-gradient(gray,gainsboro);
+    border-radius: 30px 30px;
+    height: 1700px;
+    margin-top: -50px;
+}
+.all {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
